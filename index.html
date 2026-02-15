@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S_tet Beauty Bar — Витончена краса в Немішаєві</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">S_tet</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Головна</a></li>
+                    <li><a href="#services">Послуги</a></li>
+                    <li><a href="#prices">Ціни</a></li>
+                    <li><a href="#philosophy">Філософія</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#reviews">Відгуки</a></li>
+                </ul>
+                <button class="cta-button glass-button">Записатись</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-image-wrapper hero-image-left">
+                <img src="images/234.jpg" alt="Beauty Services" loading="eager">
+            </div>
+            <div class="hero-image-wrapper hero-image-right">
+                <img src="images/IMG_2372.jpg" alt="S_tet Beauty Bar" loading="eager">
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">S_tet Beauty Bar</h1>
+                <p class="hero-subtitle">Твій простір витонченої краси</p>
+                <p class="hero-location">📍 Немішаєве • Професійний догляд</p>
+                <button class="primary-button glass-effect">Забронювати візит</button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Наші послуги</h2>
+            <p class="section-subtitle">Створюємо бездоганний образ для кожної жінки</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-number">01</div>
+                    <div class="service-image">
+                        <img src="images/111.jpg" alt="Nail Service" loading="lazy">
+                    </div>
+                    <h3>Nail Service</h3>
+                    <p>Манікюр та педикюр з акцентом на здоров'я та трендовий дизайн</p>
+                    <div class="service-details">
+                        <span>Від 350 грн</span>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-number">02</div>
+                    <div class="service-image">
+                        <img src="images/222.jpg" alt="Brow & Lash" loading="lazy">
+                    </div>
+                    <h3>Brow & Lash</h3>
+                    <p>Архітектура брів та ламінування вій для ідеального погляду</p>
+                    <div class="service-details">
+                        <span>Від 200 грн</span>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-number">03</div>
+                    <div class="service-image">
+                        <img src="images/333.JPG" alt="Massage" loading="lazy">
+                    </div>
+                    <h3>Massage</h3>
+                    <p>Розслабляючий та лікувальний масаж обличчя і тіла</p>
+                    <div class="service-details">
+                        <span>Від 500 грн</span>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-number">04</div>
+                    <div class="service-image">
+                        <img src="images/444.jpg" alt="Hair Styling" loading="lazy">
+                    </div>
+                    <h3>Hair Styling</h3>
+                    <p>Укладки та доглядові процедури для волосся</p>
+                    <div class="service-details">
+                        <span>Від 400 грн</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Price List Section -->
+    <section id="prices" class="price-list">
+        <div class="container">
+            <h2 class="section-title">Прейскурант</h2>
+            <p class="section-subtitle">Преміальний догляд за справедливими цінами</p>
+            
+            <div class="price-categories">
+                <!-- Category 1: Nail Services -->
+                <div class="price-category">
+                    <button class="category-header">
+                        <span class="category-icon">💅</span>
+                        <h3 class="category-title">Майстер нігтьового сервісу</h3>
+                        <span class="category-toggle">+</span>
+                    </button>
+                    <div class="category-content">
+                        <div class="price-tier-header">
+                            <span class="tier-label">Майстер</span>
+                            <span class="tier-label">Топ-майстер</span>
+                        </div>
+                        
+                        <div class="price-item">
+                            <span class="service-name">Гігієнічний манікюр</span>
+                            <span class="price-line"></span>
+                            <span class="price-value">
+                                <span class="tier-price">350</span>
+                                <span class="tier-separator">/</span>
+                                <span class="tier-price">400</span>
+                                <span class="currency">грн</span>
+                            </span>
+                        </div>
+                        
+                        <div class="price-item">
+                            <span class="service-name">Манікюр + покриття гель-лак</span>
+                            <span class="price-line"></span>
+                            <span class="price-value">
+                                <span class="tier-price">550</span>
+                                <span class="tier-separator">/</span>
+                                <span class="tier-price">750</span>
+                                <span class="currency">грн</span>
+                            </span>
+                        </div>
+                        
+                        <div class="price-item">
+                            <span class="service-name">Нарощення нігтів</span>
+                            <span class="price-line"></span>
+                            <span class="price-value">
+                                <span class="tier-price single">1000-1300</span>
+                                <span class="currency">грн</span>
+                            </span>
+                        </div>
+                        
+                        <div class="price-item">
+                            <span class="service-name">Корекція нарощення</span>
+                            <span class="price-line"></span>
+                            <span class="price-value">
+                                <span class="tier-price single">від 1000</span>
+                                <span class="currency">грн</span>
+                            </span>
+                        </div>
+                        
+                        <div class="price-item">
+                            <span class="service-name">Чоловічий манікюр</span>
+                            <span class="price-line"></span>
+                            <span class="price-value">
+                                <span class="tier-price">400</span>
+                                <span class="tier-separator">/</span>
+                                <span class="tier-price">500</span>
+                                <span class="currency">грн</span>
+                            </span>
+                        </div>
+                        
+                        <div class="price-item">
+                            <span class="service-name">Педикюр (обробка пальчиків)</span>
+                            <span class="price-line"></span>
+                            <span class="price-value">
+                                <span class="tier-price single">500-650</span>
+                                <span class="currency">грн</span>
+                            </span>
+                        </div>
+                        
+                        <div class="price-item">
+                            <span class="service-name">Педикюр класичний (апаратна обробка стопи)</span>
+                            <span class="price-line"></span>
+                            <span class="price-value">
+                                <span class="tier-price single">600-750</span>
+                                <span class="currency">грн</span>
+                            </span>
+                        </div>
+                        
+                        <div class="price-item">
+                            <span class="service-name">Педикюр + покриття гель-лак</span>
+                            <span class="price-line"></span>
+                            <span class="price-value">
+                                <span class="tier-price single">700-900</span>
+                                <span class="currency">грн</span>
+                            </span>
+                        </div>
+                        
+                        <div class="price-extras">
+                            <h4>Додатково</h4>
+                            <div class="price-item extra">
+                                <span class="service-name">Зміцнення нігтів</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">+100</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item extra">
+                                <span class="service-name">Френч</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">+100</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item extra">
+                                <span class="service-name">Дизайн</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">10</span> <span class="currency">грн/нігтик</span></span>
+                            </div>
+                            <div class="price-item extra">
+                                <span class="service-name">Парафінотерапія</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">350</span> <span class="currency">грн</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 2: Hair Services -->
+                <div class="price-category">
+                    <button class="category-header">
+                        <span class="category-icon">💇</span>
+                        <h3 class="category-title">Перукарські послуги</h3>
+                        <span class="category-toggle">+</span>
+                    </button>
+                    <div class="category-content">
+                        <div class="price-subcategory">
+                            <h4 class="subcategory-title">Жіночі послуги</h4>
+                            <div class="price-item">
+                                <span class="service-name">Стрижка</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">400-500</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Фарбування</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">від 500-800</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Складне фарбування</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">від 1200-3000</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Укладка на браш</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">400-700</span> <span class="currency">грн</span></span>
+                            </div>
+                        </div>
+
+                        <div class="price-subcategory">
+                            <h4 class="subcategory-title">Відновлення волосся</h4>
+                            <div class="price-item">
+                                <span class="service-name">Кератинове відновлення (20-30 см)</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">1400</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Кератинове відновлення (30-50 см)</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">2000</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Кератинове відновлення (50-70 см)</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">2500</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Ботокс/Холодне відновлення (20-30 см)</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">1500</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Ботокс/Холодне відновлення (30-50 см)</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">2200</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Ботокс/Холодне відновлення (50-70 см)</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">3000</span> <span class="currency">грн</span></span>
+                            </div>
+                        </div>
+
+                        <div class="price-subcategory">
+                            <h4 class="subcategory-title">Чоловічі послуги</h4>
+                            <div class="price-item">
+                                <span class="service-name">Стрижка</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">350-500</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Стрижка бороди</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">100-150</span> <span class="currency">грн</span></span>
+                            </div>
+                        </div>
+
+                        <div class="price-subcategory">
+                            <h4 class="subcategory-title">Дитячі послуги</h4>
+                            <div class="price-item">
+                                <span class="service-name">Стрижка</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">300-400</span> <span class="currency">грн</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 3: Cosmetology -->
+                <div class="price-category">
+                    <button class="category-header">
+                        <span class="category-icon">✨</span>
+                        <h3 class="category-title">Косметологія та Догляд</h3>
+                        <span class="category-toggle">+</span>
+                    </button>
+                    <div class="category-content">
+                        <div class="price-subcategory">
+                            <h4 class="subcategory-title">Чистки обличчя</h4>
+                            <div class="price-item">
+                                <span class="service-name">Ультразвукова чистка</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">750</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Комбінована чистка</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">1000</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Мануальна чистка</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">850</span> <span class="currency">грн</span></span>
+                            </div>
+                        </div>
+
+                        <div class="price-subcategory">
+                            <h4 class="subcategory-title">Пілінги</h4>
+                            <div class="price-item">
+                                <span class="service-name">Освітлювальний пілінг</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">500</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Мигдальний пілінг</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">800</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Гліколевий пілінг</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">800</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">ТСА пілінг</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">1300</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Ретиноловий пілінг</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">1300</span> <span class="currency">грн</span></span>
+                            </div>
+                        </div>
+
+                        <div class="price-subcategory">
+                            <h4 class="subcategory-title">Процедури</h4>
+                            <div class="price-item">
+                                <span class="service-name">Карбокситерапія (обличчя)</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">750</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Карбокситерапія (тіло)</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">1200</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Ферментотерапія (обличчя)</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">750</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Ферментотерапія (тіло)</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">1200</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Мікрострумова терапія</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">600</span> <span class="currency">грн</span></span>
+                            </div>
+                        </div>
+
+                        <div class="price-subcategory">
+                            <h4 class="subcategory-title">Ін'єкційна косметологія</h4>
+                            <div class="price-item">
+                                <span class="service-name">Rejuran I</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">3200</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Rejuran HB</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">3500</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Rejuran Healer</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">4800</span> <span class="currency">грн</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 4: Brows & Lashes -->
+                <div class="price-category">
+                    <button class="category-header">
+                        <span class="category-icon">👁️</span>
+                        <h3 class="category-title">Майстер бровіст</h3>
+                        <span class="category-toggle">+</span>
+                    </button>
+                    <div class="category-content">
+                        <div class="price-item">
+                            <span class="service-name">Корекція брів (віск)</span>
+                            <span class="price-line"></span>
+                            <span class="price-value"><span class="tier-price single">200</span> <span class="currency">грн</span></span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Корекція брів (пінцет)</span>
+                            <span class="price-line"></span>
+                            <span class="price-value"><span class="tier-price single">200</span> <span class="currency">грн</span></span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Фарбування брів</span>
+                            <span class="price-line"></span>
+                            <span class="price-value"><span class="tier-price single">200</span> <span class="currency">грн</span></span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Фарбування брів + корекція</span>
+                            <span class="price-line"></span>
+                            <span class="price-value"><span class="tier-price single">400</span> <span class="currency">грн</span></span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Ламінування брів</span>
+                            <span class="price-line"></span>
+                            <span class="price-value"><span class="tier-price single">500</span> <span class="currency">грн</span></span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Ламінування брів + корекція</span>
+                            <span class="price-line"></span>
+                            <span class="price-value"><span class="tier-price single">550</span> <span class="currency">грн</span></span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Ламінування брів + фарбування</span>
+                            <span class="price-line"></span>
+                            <span class="price-value"><span class="tier-price single">600</span> <span class="currency">грн</span></span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Ламінування вій</span>
+                            <span class="price-line"></span>
+                            <span class="price-value"><span class="tier-price single">700</span> <span class="currency">грн</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 5: Massage & Body -->
+                <div class="price-category">
+                    <button class="category-header">
+                        <span class="category-icon">💆</span>
+                        <h3 class="category-title">Масаж та Тіло</h3>
+                        <span class="category-toggle">+</span>
+                    </button>
+                    <div class="category-content">
+                        <div class="price-subcategory">
+                            <h4 class="subcategory-title">Масаж</h4>
+                            <div class="price-item">
+                                <span class="service-name">Масаж обличчя (40 хв)</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">500</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Масаж обличчя (60 хв)</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">550</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Загальний масаж (90 хв)</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">1000</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Загальний масаж (120 хв)</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">1200</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Антицелюлітний масаж</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">1000</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Лімфодренажний масаж</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">850</span> <span class="currency">грн</span></span>
+                            </div>
+                        </div>
+
+                        <div class="price-subcategory">
+                            <h4 class="subcategory-title">Лазерна епіляція</h4>
+                            <div class="price-item">
+                                <span class="service-name">Бікіні + пашки (комплекс)</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">1000</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Ноги повністю + бікіні</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">2000</span> <span class="currency">грн</span></span>
+                            </div>
+                            <div class="price-item">
+                                <span class="service-name">Все тіло (комплекс)</span>
+                                <span class="price-line"></span>
+                                <span class="price-value"><span class="tier-price single">3000</span> <span class="currency">грн</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sticky Booking Button for Price List -->
+            <div class="price-list-cta">
+                <button class="primary-button glass-effect">Записатися на послугу</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section id="philosophy" class="philosophy">
+        <div class="container">
+            <div class="philosophy-header">
+                <h2 class="philosophy-title">Філософія S_tet</h2>
+                <p class="philosophy-subtitle">Стандарти, що визначають нас</p>
+            </div>
+            
+            <div class="philosophy-grid">
+                <div class="philosophy-card">
+                    <div class="philosophy-border"></div>
+                    <h3>Стерильність 100%</h3>
+                    <p>Кожен інструмент проходить багаторівневу стерилізацію. Ваше здоров'я — наш пріоритет.</p>
+                </div>
+                
+                <div class="philosophy-card">
+                    <div class="philosophy-border"></div>
+                    <h3>Преміальні матеріали</h3>
+                    <p>Працюємо виключно з професійними брендами світового рівня.</p>
+                </div>
+                
+                <div class="philosophy-card">
+                    <div class="philosophy-border"></div>
+                    <h3>Індивідуальний підхід</h3>
+                    <p>Кожна процедура адаптована під ваші потреби та побажання.</p>
+                </div>
+                
+                <div class="philosophy-card">
+                    <div class="philosophy-border"></div>
+                    <h3>Майстри-професіонали</h3>
+                    <p>Наша команда постійно навчається та вдосконалює свої навички.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Lookbook</h2>
+            <p class="section-subtitle">Наші роботи говорять самі за себе</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/555.jpg" alt="Nail Art" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Nail Art</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/666.jpg" alt="Brow Design" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Brow Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/777.JPG" alt="Laser Epilation" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Laser Epilation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/888.jpg" alt="Hair Styling" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Hair Styling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/999.jpg" alt="Lash Lamination" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Lash Lamination</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/000.jpg" alt="Classic Manicure" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Classic Manicure</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <div class="reviews-header">
+                <h2 class="section-title">Що кажуть наші клієнти</h2>
+                <p class="section-subtitle">Реальні відгуки від наших гостей</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Неймовірна атмосфера! Професіонали своєї справи. Мої нігті завжди бездоганні. Рекомендую всім подругам!"</p>
+                    <div class="testimonial-author">
+                        <strong>Олена К.</strong>
+                        <span>Google Maps</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"S_tet — це справжній оазис краси в Немішаєві. Стерильність на найвищому рівні, майстри уважні та талановиті. Завжди йду з посмішкою!"</p>
+                    <div class="testimonial-author">
+                        <strong>Марина П.</strong>
+                        <span>Google Maps</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Найкращий beauty bar! Ламінування вій — просто вау-ефект! Майстри дуже професійні, результат завжди перевершує очікування. Дякую!"</p>
+                    <div class="testimonial-author">
+                        <strong>Ірина С.</strong>
+                        <span>Google Maps</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Завітайте до нас</h2>
+                    <div class="info-item">
+                        <h4>Адреса</h4>
+                        <p>вул. Григорія Сковороди, 11<br>Немішаєве, Київська область</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Графік роботи</h4>
+                        <p>Пн-Нд: 09:00 - 20:00</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Контакти</h4>
+                        <p>Телефон: <a href="tel:+380937728621" style="color: var(--matte-gold); text-decoration: none;">(093) 772 86 21</a><br>Instagram: @s_tet_beauty_bar</p>
+                    </div>
+                    <button class="primary-button">Записатись онлайн</button>
+                </div>
+                
+                <div class="map-container">
+                    <a href="https://www.google.com/maps/place/S_tet_beauty_bar/@50.5689426,30.0944319,17z/data=!3m1!4b1!4m6!3m5!1s0x472b3b8a92c6aa59:0x79e8fcc51884ecb4!8m2!3d50.5689426!4d30.0944319!16s%2Fg%2F11rdb20g0v?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="map-link">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.789!2d30.0944319!3d50.5689426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472b3b8a92c6aa59%3A0x79e8fcc51884ecb4!2sS_tet_beauty_bar!5e0!3m2!1suk!2sua!4v1234567890"
+                            width="100%" 
+                            height="100%" 
+                            style="border:0; pointer-events: none;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-logo">S_tet</h3>
+                    <p>Beauty Bar — Немішаєве</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Навігація</h4>
+                    <ul>
+                        <li><a href="#services">Послуги</a></li>
+                        <li><a href="#philosophy">Філософія</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                        <li><a href="#reviews">Відгуки</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Соціальні мережі</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/s_tet_beauty_bar/" target="_blank" class="social-link">Instagram</a>
+                        <a href="https://www.tiktok.com/@s_tet_beauty_saloon?_r=1" target="_blank" class="social-link">TikTok</a>
+                        <a href="tel:+380937728621" class="social-link">📞 (093) 772 86 21</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 S_tet Beauty Bar. Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky Mobile Button -->
+    <button class="sticky-mobile-btn">Записатись</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+    "name": "S_tet Beauty Bar",
+    "short_name": "S_tet",
+    "description": "Витончена краса в Ірпені - манікюр, педикюр, макіяж, brow&lash",
+    "theme_color": "#D4AF77",
+    "background_color": "#F5EFE7",
+    "display": "standalone",
+    "start_url": "/",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
