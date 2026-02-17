@@ -91,7 +91,7 @@ document.querySelectorAll('.service-card, .philosophy-card, .gallery-item').forE
 });
 
 // ===== BOOKING BUTTONS =====
-const bookingButtons = document.querySelectorAll('.glass-button, .primary-button, .sticky-mobile-btn');
+const bookingButtons = document.querySelectorAll('.glass-button, .primary-button');
 
 bookingButtons.forEach(button => {
     button.addEventListener('click', () => {
