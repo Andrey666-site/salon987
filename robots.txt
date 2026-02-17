@@ -1,0 +1,38 @@
+# Robots.txt для S_tet Beauty Bar Немішаєве
+
+# Дозволити всім пошуковим системам індексувати сайт
+User-agent: *
+Allow: /
+
+# Заборонити індексацію допоміжних файлів
+Disallow: /*.css$
+Disallow: /*.js$
+Disallow: /images/README.md
+
+# Посилання на sitemap
+Sitemap: https://andrey666-site.github.io/S_tet-Beauty-Bar/sitemap.xml
+
+# Налаштування для Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Налаштування для Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Налаштування для Яндекс
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1
+
+# Заборонити неякісним ботам
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /

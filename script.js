@@ -146,10 +146,7 @@ priceCategories.forEach(category => {
     });
 });
 
-// Open first category by default
-if (priceCategories.length > 0) {
-    priceCategories[0].classList.add('active');
-}
+// All categories closed by default (no auto-open)
 
 // ===== MOBILE MENU TOGGLE (for future implementation) =====
 // This can be expanded when you add a hamburger menu for mobile
