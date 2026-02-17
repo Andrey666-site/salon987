@@ -33,6 +33,74 @@
 - HTML5, CSS3, JavaScript
 - Повністю адаптивний дизайн
 - Оптимізовано для мобільних пристроїв
+- SEO оптимізація (meta-теги, Open Graph, Schema.org)
+- Sitemap.xml та robots.txt
+- PWA ready (site.webmanifest)
+
+## 🚀 SEO Features
+
+✅ **Meta Tags** - Оптимізовані title, description, keywords  
+✅ **Open Graph** - Красиві картки в соцмережах  
+✅ **Schema.org** - Structured data для Google  
+✅ **Local SEO** - Геолокація Немішаєве  
+✅ **Mobile-First** - Адаптивний дизайн для всіх пристроїв  
+✅ **Fast Loading** - Оптимізація швидкості завантаження  
+
+## 📦 Структура проєкту
+
+```
+s_tet_beautybr/
+├── index.html          # Головна сторінка
+├── styles.css          # Стилі (з mobile-first підходом)
+├── script.js           # JavaScript функціонал
+├── sitemap.xml         # Карта сайту для Google
+├── robots.txt          # Правила для пошукових ботів
+├── .htaccess           # Налаштування Apache (опційно)
+├── site.webmanifest    # PWA manifest
+├── .gitignore          # Git ignore rules
+└── images/             # Фотографії салону
+    ├── 000.jpg - 999.jpg  # Галерея робіт
+    └── IMG_2372.jpg       # Додаткові фото
+```
+
+## 🌐 Як завантажити на GitHub
+
+### Метод 1: GitHub Desktop (найпростіший)
+1. Відкрийте GitHub Desktop
+2. File → Add Local Repository
+3. Виберіть папку `s_tet_beautybr`
+4. Publish repository
+
+### Метод 2: Командний рядок
+```bash
+cd /Users/rostislavpasko/Desktop/s_tet_beautybr
+git init
+git add .
+git commit -m "Initial commit: S_tet Beauty Bar website"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/S_tet-Beauty-Bar.git
+git push -u origin main
+```
+
+### Метод 3: Через веб-інтерфейс GitHub
+1. Створіть новий репозиторій на github.com
+2. Перетягніть всі файли в репозиторій
+3. Commit changes
+
+## ⚙️ Налаштування GitHub Pages
+
+1. Перейдіть в **Settings** репозиторію
+2. **Pages** → Source: `main` branch
+3. Збережіть зміни
+4. Сайт буде доступний за: `https://YOUR_USERNAME.github.io/S_tet-Beauty-Bar/`
+
+## 🔧 Після завантаження
+
+**Важливо оновити URL у файлах:**
+
+1. **sitemap.xml** - замініть `andrey666-site.github.io` на свій URL
+2. **index.html** - оновіть `og:url` та `canonical` теги
+3. **robots.txt** - оновіть Sitemap URL
 
 ---
 

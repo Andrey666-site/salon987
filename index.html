@@ -178,7 +178,7 @@
         <div class="hero-overlay"></div>
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">S_tet Beauty Bar — Салон краси в Немішаєві</h1>
+                <h1 class="hero-title">S_tet Beauty Bar</h1>
                 <p class="hero-subtitle">Твій простір витонченої краси та професійного догляду</p>
                 <p class="hero-location">📍 Немішаєве, вул. Григорія Сковороди, 11 • Професійний догляд</p>
                 <button class="primary-button glass-effect">Забронювати візит</button>
@@ -192,7 +192,7 @@
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
-            <h2 class="section-title">Послуги салону краси в Немішаєві</h2>
+            <h2 class="section-title">Наші послуги</h2>
             <p class="section-subtitle">Преміальні beauty-послуги від професійних майстрів S_tet Beauty Bar</p>
             
             <div class="services-grid">
@@ -250,8 +250,7 @@
     <!-- Price List Section -->
     <section id="prices" class="price-list">
         <div class="container">
-            <h2 class="section-title">Ціни на послуги салону краси в Немішаєві</h2>
-            <p class="section-subtitle">Прозорий прейскурант S_tet Beauty Bar — манікюр, косметологія, масаж від 350 грн</p>
+            <h2 class="section-title">Наші ціни</h2>
             
             <div class="price-categories">
                 <!-- Category 1: Nail Services -->
@@ -683,10 +682,6 @@
                 </div>
             </div>
 
-            <!-- Sticky Booking Button for Price List -->
-            <div class="price-list-cta">
-                <button class="primary-button glass-effect">Записатися на послугу</button>
-            </div>
         </div>
     </section>
 
@@ -694,7 +689,7 @@
     <section id="philosophy" class="philosophy">
         <div class="container">
             <div class="philosophy-header">
-                <h2 class="philosophy-title">Чому обирають наш салон краси в Немішаєві</h2>
+                <h2 class="philosophy-title">Наша філософія</h2>
                 <p class="philosophy-subtitle">Стандарти якості S_tet Beauty Bar, що визначають нас</p>
             </div>
             
@@ -867,6 +862,13 @@
         </div>
     </section>
 
+    <!-- Floating Call Button -->
+    <a href="tel:+380937728621" class="floating-call-btn" aria-label="Записатися на прийом">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+        </svg>
+    </a>
+
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -903,7 +905,41 @@
     </footer>
 
     <!-- Sticky Mobile Button -->
-    <button class="sticky-mobile-btn">Записатись</button>
+    <!-- Floating Phone Button -->
+    <div class="floating-phone" id="floatingPhone">
+        <i class="fas fa-phone"></i>
+    </div>
+
+    <!-- Phone Modal -->
+    <div class="phone-modal" id="phoneModal">
+        <div class="phone-modal-content">
+            <button class="phone-modal-close" id="phoneModalClose">&times;</button>
+            <h3>Зв'яжіться з нами</h3>
+            <div class="phone-options">
+                <a href="tel:+380937728621" class="phone-option">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <span class="phone-label">Телефонуйте</span>
+                        <span class="phone-number">(093) 772 86 21</span>
+                    </div>
+                </a>
+                <a href="https://t.me/+380937728621" target="_blank" class="phone-option">
+                    <i class="fab fa-telegram"></i>
+                    <div>
+                        <span class="phone-label">Telegram</span>
+                        <span class="phone-number">Написати</span>
+                    </div>
+                </a>
+                <a href="https://wa.me/380937728621" target="_blank" class="phone-option">
+                    <i class="fab fa-whatsapp"></i>
+                    <div>
+                        <span class="phone-label">WhatsApp</span>
+                        <span class="phone-number">Написати</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

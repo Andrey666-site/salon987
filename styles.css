@@ -1274,6 +1274,62 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+/* ===== FLOATING CALL BUTTON ===== */
+.floating-call-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #D4AF77 0%, #C19A6B 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 25px rgba(212, 175, 119, 0.4);
+    cursor: pointer;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white;
+    animation: pulse-ring 2s infinite;
+}
+
+.floating-call-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 35px rgba(212, 175, 119, 0.6);
+    background: linear-gradient(135deg, #E0C492 0%, #D4AF77 100%);
+}
+
+.floating-call-btn:active {
+    transform: scale(0.95);
+}
+
+.floating-call-btn svg {
+    animation: shake 0.5s ease-in-out 3s infinite;
+}
+
+@keyframes pulse-ring {
+    0% {
+        box-shadow: 0 0 0 0 rgba(212, 175, 119, 0.7),
+                    0 8px 25px rgba(212, 175, 119, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 0 15px rgba(212, 175, 119, 0),
+                    0 8px 25px rgba(212, 175, 119, 0.4);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(212, 175, 119, 0),
+                    0 8px 25px rgba(212, 175, 119, 0.4);
+    }
+}
+
+@keyframes shake {
+    0%, 100% { transform: rotate(0deg); }
+    10%, 30%, 50%, 70%, 90% { transform: rotate(-10deg); }
+    20%, 40%, 60%, 80% { transform: rotate(10deg); }
+}
+
 /* Mobile and Tablet (768px and below) */
 @media (max-width: 768px) {
     /* Navigation */
@@ -1474,8 +1530,35 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+    /* Floating button adjustments for mobile */
+    .floating-call-btn {
+        width: 55px;
+        height: 55px;
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    .floating-call-btn svg {
+        width: 24px;
+        height: 24px;
+    }
+}
+
 /* Small Mobile (480px and below) */
 @media (max-width: 480px) {
+    /* Floating button for small screens */
+    .floating-call-btn {
+        width: 50px;
+        height: 50px;
+        bottom: 15px;
+        right: 15px;
+    }
+    
+    .floating-call-btn svg {
+        width: 22px;
+        height: 22px;
+    }
+    
     /* Hero */
     .hero {
         min-height: 70vh;
